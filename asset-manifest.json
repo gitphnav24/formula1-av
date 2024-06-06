@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/formula1-av/static/css/main.00f6b02a.css",
-    "main.js": "/formula1-av/static/js/main.35a3b770.js",
+    "main.js": "/formula1-av/static/js/main.49e67bd0.js",
     "static/js/488.eb0c797b.chunk.js": "/formula1-av/static/js/488.eb0c797b.chunk.js",
     "static/media/F1_chequered_flag_Animated.gif": "/formula1-av/static/media/F1_chequered_flag_Animated.3e6984e7f09a489a95fc.gif",
     "static/media/f1feeder.png": "/formula1-av/static/media/f1feeder.c389c014bf131630e7a4.png",
@@ -49,11 +49,11 @@
     "static/media/mercedes.png": "/formula1-av/static/media/mercedes.a3a6ea41d04176824203.png",
     "index.html": "/formula1-av/index.html",
     "main.00f6b02a.css.map": "/formula1-av/static/css/main.00f6b02a.css.map",
-    "main.35a3b770.js.map": "/formula1-av/static/js/main.35a3b770.js.map",
+    "main.49e67bd0.js.map": "/formula1-av/static/js/main.49e67bd0.js.map",
     "488.eb0c797b.chunk.js.map": "/formula1-av/static/js/488.eb0c797b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00f6b02a.css",
-    "static/js/main.35a3b770.js"
+    "static/js/main.49e67bd0.js"
   ]
 }
