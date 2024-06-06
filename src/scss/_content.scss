@@ -1,0 +1,74 @@
+.component-body {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 12.5rem);
+}
+
+
+.header {
+    box-sizing: border-box;
+    min-height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $txt-color-lightest;
+    font-size: small;
+    background-image: linear-gradient(to bottom right, $content-header-bckgr-grad11, $content-header-bckgr-grad12);
+    padding: 1rem;
+
+    .crumb {
+        display: inline;
+        box-sizing: border-box;
+        margin: 0.4rem 0.4rem 0.4rem 0.4rem;
+        padding: 0.3rem 0.4rem;
+        background-image: linear-gradient(to bottom right, $content-crumb-bckr-grad11, $content-crumb-bckr-grad12);
+        font-weight: 500;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px $box-shadow-dark;
+        color: $txt-color-lightest;
+
+        :hover {
+            cursor: pointer;
+            color: $txt-color-lightest;
+            font-weight: bolder;
+            transform: scale(1.1);
+        }
+    }
+
+    .crumb-btn {
+        color:$txt-color-lightest;
+        text-decoration: none;
+
+        :link {
+            color: $txt-color-lightest;
+            text-decoration: none;
+        }
+    }
+
+    li:last-of-type {
+        background-image: linear-gradient(to bottom right, $crumb-last-bckgr-grad11, $crumb-last-bckgr-grad12);
+        pointer-events: none;
+        cursor: default;
+    }
+
+    input {
+        padding: 0.3rem;
+        min-width: 40%;
+        border-radius: 0.4rem;
+        background-image: linear-gradient(to bottom right, $content-crumb-bckr-grad11, $content-crumb-bckr-grad12);
+        color: $txt-color-lightest;
+    }
+
+    input::placeholder {
+        opacity: 1;
+        color: $input-placeholder-txt-color;
+    }
+
+    input:hover {
+        cursor: pointer;
+        background-image: linear-gradient(to bottom right, $input-hover-bckgr-grad11, $content-crumb-bckr-grad12);
+    }
+
+}

@@ -1,0 +1,18 @@
+.loader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    img{
+        transform: scale(1.4);
+    }
+
+    p {
+        font-size: x-large;
+        color: $txt-color-light;
+        font-family: "D3 Roadsterism Italic";
+        text-align: center;
+        margin-top: 1.6rem;
+    }
+}

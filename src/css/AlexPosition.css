@@ -1,0 +1,58 @@
+.position-box {
+    /* display: inline-block; */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 10px;
+    /* background-color: purple; */
+}
+
+.position-1 {
+    background-color: yellow;
+}
+
+.position-2 {
+    background-color: gray;
+}
+
+.position-3 {
+    background-color: orange;
+}
+
+.position-4 {
+    background-color: lightgreen;
+}
+
+.position-5 {
+    background-color: lightblue;
+}
+
+.position-6 {
+    background-color: gold;
+}
+
+.position-7 {
+    background-color: Silver;
+}
+
+.position-8 {
+    background-color: #CD7F32;
+}
+
+.position-9 {
+    background-color: rgb(230, 173, 224);
+}
+
+.position-10 {
+    background-color: rgb(162, 179, 185);
+}
+
+/* New styles for position 0 and higher than 10 */
+.position-0 {
+  background-color: turquoise; /* Set your desired color */
+}
+
+.position-greater-than-10 {
+  background-color: teal; /* Set your desired color */
+  color: white; /* Optional: Change text color for better visibility */
+}

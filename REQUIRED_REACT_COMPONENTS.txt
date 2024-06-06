@@ -1,0 +1,30 @@
+================================================================================================================================================================================================================================
+Create React App:
+This command initializes a new React project named “zzztest01.”
+It sets up the basic project structure, configuration files, and initial dependencies.
+The correct command is:
+npx create-react-app zzztest01
+================================================================================================================================================================================================================================
+Change Directory:
+After creating the React app, you need to navigate into the project directory.
+Use the following command to change into the “zzztest01” directory:
+cd zzztest01
+================================================================================================================================================================================================================================
+Install these dependencies using the following commands:
+================================================================================================================================================================================================================================
+npm install --save react-router-dom
+npm install axios
+npm install --save react-flagkit
+npm install sass
+================================================================================================================================================================================================================================
+react-router-dom: For handling routing in your React application.
+axios: For making HTTP requests (e.g., fetching data from APIs).
+react-flagkit: A library for displaying country flags.
+sass: For using Sass (Syntactically Awesome Style Sheets) in your project.
+================================================================================================================================================================================================================================
+Make sure to run these commands in the correct order and within the project directory. If you encounter any issues or need further assistance, feel free to ask! 😊
+================================================================================================================================================================================================================================
+“Please note that the ‘img’ folder (or directory) MUST be located in the ‘public’ folder (or directory) for images to work PROPERLY and AVOID APPLICATION CRASHING.”
+================================================================================================================================================================================================================================
+img folder/direktorijum MORA BITI u public folder/direktrijumu da bi slike ISPRAVNO RADILE i da ne BI BILO SLOMA APLIKACIJE sa REQUIRED u img src	!
+================================================================================================================================================================================================================================

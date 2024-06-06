@@ -1,0 +1,20 @@
+.appBody {
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: $app-body-bckgrnd-blackish;
+    background-image: url("https://www.transparenttextures.com/patterns/whitey.png");
+    display: flex;
+    flex-direction: row;
+    border: 5px groove $app-body-border;
+}
+
+@font-face {
+    font-family: "D3 Roadsterism Italic";
+    src: url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.eot");
+    src: url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8e808bcb7020f0ed2ac4418f3977ba04.svg#D3 Roadsterism Italic")format("svg");
+}
+

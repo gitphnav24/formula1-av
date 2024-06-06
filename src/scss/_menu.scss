@@ -1,0 +1,42 @@
+.menu-body {
+    box-sizing: border-box;
+    min-height: 100%;
+
+    .sticky-el {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        font-family: "D3 Roadsterism Italic";
+        font-size: large;
+        text-shadow: 5px 5px 8px $box-shadow-dark;
+        position: sticky;
+        top: 0;
+        max-width: 97.5%;
+
+        :nth-child(2) {
+            justify-content: center;
+
+            :first-child {
+                display: none;
+            }
+        }
+
+    }
+
+}
+
+.navigation-link {
+    display: flex;
+    border: 2px solid $navigation-link-border;
+    text-decoration: none;
+    color: $txt-color-lightest;
+    min-height: 5rem;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px $box-shadow-dark;
+    align-items: center;
+
+    &:hover {
+        background-color: $navigation-link-hover-bckgrnd;
+    }
+
+}

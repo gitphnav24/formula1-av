@@ -1,0 +1,81 @@
+.welcome {
+
+    background-image: url('https://motorsportmagazine.b-cdn.net/database/wp-content/uploads/sites/2/2020/12/Tazio-Nuvolari-leads-Achille-Varzi-in-the-1933-Monaco-Grand-Prix-1600x1036.jpg');
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 2rem auto;
+        font-family: "D3 Roadsterism Italic";
+        color: rgb(243, 191, 191);
+        text-shadow: 0.2rem 0.2rem rgb(188, 11, 11);
+    }
+
+
+    // img {
+    //     width: 25%;
+    //     position: absolute;
+    //     bottom: 0;
+    //     right: 0;
+    //     margin: 5rem 2rem 0.2rem 0;
+    //     height: 30%;
+    // }
+
+    p {
+        font-size: 1.5rem;
+        font-family: "arial";
+        vertical-align: middle;
+        margin: 0.8rem;
+        padding: 1rem;
+        // color: rgb(160, 110, 110);
+        color: rgb(221, 105, 105);
+
+        span {
+            font-weight: bold;
+            color: rgb(217, 196, 196);
+        }
+
+    }
+
+    .buttons {
+
+        padding-left: 20rem;
+        padding-top: 0.7rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-around;
+
+        h2 {
+            font-size: 2rem;
+            color: rgb(217, 196, 196);
+        }
+
+        select,
+        input {
+            width: 25%;
+            margin: 1.5rem 0;
+            background-image: linear-gradient(to bottom right, rgb(147, 143, 143), rgb(73, 72, 72));
+            text-align: center;
+            align-self: center;
+            color: aliceblue;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px black;
+            font-size: xx-large;
+
+            option {
+                background-color: grey;
+            }
+
+            &:hover {
+                cursor: pointer;
+                color: white;
+                font-weight: bolder;
+                transform: scale(1.1);
+            }
+        }
+
+        input {
+            font-size: larger;
+        }
+    }
+
+}
