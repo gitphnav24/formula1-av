@@ -19,7 +19,7 @@ const F1AllDrivers = (props) => {
 
     const getAllDrivers = async () => {
 
-        const allDriversUrl = `http://ergast.com/api/f1/${year}/driverStandings.json`;
+        const allDriversUrl = `https://ergast.com/api/f1/${year}/driverStandings.json`;
 
         try {
             const allDriversResponse = await axios.get(allDriversUrl);

@@ -29,8 +29,8 @@ const F1AllRaceDetails = (props) => {
     };
 
     const getRaceDetails = async () => {
-        const url = `http://ergast.com/api/f1/${props.year}/${params.id}/results.json`;
-        const url1 = `http://ergast.com/api/f1/${props.year}/${params.id}/qualifying.json`;
+        const url = `https://ergast.com/api/f1/${props.year}/${params.id}/results.json`;
+        const url1 = `https://ergast.com/api/f1/${props.year}/${params.id}/qualifying.json`;
         try {
             const response = await axios.get(url);
             const response1 = await axios.get(url1);

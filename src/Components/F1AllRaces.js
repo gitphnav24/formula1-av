@@ -19,7 +19,7 @@ const F1AllRaces = (props) => {
 
     const getAllRaces = async () => {
         try {
-            const url = `http://ergast.com/api/f1/${props.year}/results/1.json`;
+            const url = `https://ergast.com/api/f1/${props.year}/results/1.json`;
             const allRacesResponse = await axios.get(url);
             const allRacesData = allRacesResponse.data.MRData.RaceTable.Races;
             setAllRaces(allRacesData);

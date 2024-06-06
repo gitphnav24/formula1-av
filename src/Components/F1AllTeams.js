@@ -18,7 +18,7 @@ const F1AllTeams = (props) => {
 
     const getAllTeams = async () => {
         try {
-            const allTeamsResponse = await axios.get(`http://ergast.com/api/f1/${year}/constructorStandings.json`);
+            const allTeamsResponse = await axios.get(`https://ergast.com/api/f1/${year}/constructorStandings.json`);
             const allTeamsData = allTeamsResponse.data.MRData.StandingsTable.StandingsLists[0].ConstructorStandings;
             setAllTeams(allTeamsData);
             setIsLoading(false);

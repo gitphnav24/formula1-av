@@ -42,7 +42,7 @@ const F1AllTeamsDetails = (props) => {
                 // console.log("CONSTRUCTOR ID IS:", teamid)
                 setTeamDrivers(standings.filter((driver) => driver.Constructors[0].constructorId === teamid));
 
-                const url = `http://ergast.com/api/f1/${props.year}/results/1.json`;
+                const url = `https://ergast.com/api/f1/${props.year}/results/1.json`;
                 const allRacesResponse = await axios.get(url);
                 const allRacesData = allRacesResponse.data.MRData.RaceTable.Races;
                 setAllRaces(allRacesData);
@@ -130,8 +130,8 @@ const F1AllTeamsDetails = (props) => {
     // Rest of your component logic...
 	
     const getTeamDetails = async () => {
-        const constructorStandingsUrl = `http://ergast.com/api/f1/${year}/constructors/${params.id}/constructorStandings.json`;
-        const resultsUrl = `http://ergast.com/api/f1/${year}/constructors/${params.id}/results.json`;
+        const constructorStandingsUrl = `https://ergast.com/api/f1/${year}/constructors/${params.id}/constructorStandings.json`;
+        const resultsUrl = `https://ergast.com/api/f1/${year}/constructors/${params.id}/results.json`;
         try {
             const constructorStandingsResponse = await axios.get(constructorStandingsUrl);
             const resultsResponse = await axios.get(resultsUrl);
