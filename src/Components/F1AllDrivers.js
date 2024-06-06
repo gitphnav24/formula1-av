@@ -35,7 +35,7 @@ const F1AllDrivers = (props) => {
     useEffect(() => {
         setIsLoading(true);
         getAllDrivers();
-    }, [year]);
+    }, []);
 
     if (isLoading) {
         return <Loader />
@@ -69,6 +69,7 @@ const F1AllDrivers = (props) => {
         <div className="header">
             <F1Breadcrumbs items={items} />
             <input
+                name="crumbs"
                 type="text"
                 placeholder="Search by driver name"
                 value={searchTerm}
